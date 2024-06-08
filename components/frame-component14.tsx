@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import FrameComponent15 from "./frame-component15";
-import styles from "./frame-component14.module.css";
 
 export type FrameComponent14Type = {
   className?: string;
@@ -10,12 +9,14 @@ const FrameComponent14: NextPage<FrameComponent14Type> = ({
   className = "",
 }) => {
   return (
-    <div className={[styles.frameParent, className].join(" ")}>
-      <div className={styles.ourHostingSolutionsWrapper}>
-        <div className={styles.ourHostingSolutions}>Our Hosting Solutions</div>
+    <div
+      className={`flex flex-col items-start justify-start gap-[0.562rem] text-left text-[1.75rem] text-color font-outfit-light-body-text-6 ${className}`}
+    >
+      <div className="flex flex-row items-center justify-center p-[0.625rem]">
+        <div className="relative font-medium">Our Hosting Solutions</div>
       </div>
-      <div className={styles.frameGroup}>
-        <div className={styles.frameContainer}>
+      <div className="flex flex-col items-center justify-start gap-[1.875rem] text-[1.25rem]">
+        <div className="flex flex-row items-start justify-start gap-[4.062rem]">
           <FrameComponent15
             cPanel="cPanel"
             easyToUseControlPanelForM="Easy-to-use control panel for managing domains, emails, and files."
@@ -29,21 +30,21 @@ const FrameComponent14: NextPage<FrameComponent14Type> = ({
             easyToUseControlPanelForM="Versatile management for hosting, email, and security."
           />
         </div>
-        <div className={styles.frameContainer}>
-          <div className={styles.frameParent1}>
-            <div className={styles.ourHostingSolutionsWrapper}>
-              <b className={styles.vps}>VPS</b>
+        <div className="flex flex-row items-start justify-start gap-[4.062rem]">
+          <div className="flex flex-col items-start justify-start">
+            <div className="flex flex-row items-center justify-center p-[0.625rem]">
+              <b className="relative">VPS</b>
             </div>
-            <div className={styles.virtualPrivateServerHostingWrapper}>
-              <div className={styles.virtualPrivateServerContainer}>
-                <span className={styles.virtualPrivateServerContainer1}>
-                  <p className={styles.virtualPrivateServer}>
+            <div className="flex flex-row items-center justify-center p-[0.625rem] text-[1rem]">
+              <div className="w-[22.375rem] relative font-light flex items-center shrink-0">
+                <span className="w-full">
+                  <p className="m-0">
                     Virtual Private Server hosting offering dedicated
                   </p>
-                  <p className={styles.virtualPrivateServer}>
+                  <p className="m-0">
                     resources and greater control for your web
                   </p>
-                  <p className={styles.virtualPrivateServer}>environments.</p>
+                  <p className="m-0">environments.</p>
                 </span>
               </div>
             </div>

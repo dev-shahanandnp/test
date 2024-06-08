@@ -8,7 +8,6 @@ import ServersAndVPS from "./servers-and-v-p-s";
 import CloudSolutions from "./cloud-solutions";
 import Support from "./support";
 import MyAccount from "./my-account";
-import styles from "./frame-component10.module.css";
 
 export type FrameComponent10Type = {
   className?: string;
@@ -83,68 +82,119 @@ const FrameComponent10: NextPage<FrameComponent10Type> = ({
 
   return (
     <>
-      <div className={[styles.logoParent, className].join(" ")}>
-        <div className={styles.logo}>
+      <div
+        className={`w-[77.5rem] flex flex-row items-center justify-start gap-[17rem] text-left text-[1rem] text-primary font-outfit-light-body-text-6 ${className}`}
+      >
+        <div className="flex flex-col items-start justify-start p-[0.518rem]">
           <img
-            className={styles.protozoahostlogo11E169560957Icon}
+            className="w-[5.275rem] relative h-[3.313rem] object-cover"
             alt=""
             src="/protozoahostlogo11e1695609575419-1@2x.png"
           />
         </div>
-        <div className={styles.frameParent}>
-          <div className={styles.domainsParent} onClick={openDomainDropdown}>
-            <div className={styles.domains}>Domains</div>
-            <div className={styles.iconArrowDownWrapper}>
-              <div className={styles.iconArrowDown}>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+        <div className="flex flex-row items-start justify-start p-[0.625rem] gap-[0.625rem]">
+          <div
+            className="flex flex-row items-center justify-center p-[0.625rem] gap-[0.625rem] cursor-pointer"
+            onClick={openDomainDropdown}
+          >
+            <div className="relative font-medium">Domains</div>
+            <div className="flex flex-col items-start justify-start pt-[0.437rem] px-[0rem] pb-[0.187rem]">
+              <div className="flex flex-col items-start justify-start">
+                <img
+                  className="w-[0.563rem] relative h-[0.313rem]"
+                  alt=""
+                  src="/vector.svg"
+                />
               </div>
             </div>
           </div>
-          <div className={styles.domainsParent} onClick={openHostingDropdown}>
-            <div className={styles.domains}>Hostings</div>
-            <div className={styles.iconArrowDownWrapper}>
-              <div className={styles.iconArrowDown}>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+          <div
+            className="flex flex-row items-center justify-center p-[0.625rem] gap-[0.625rem] cursor-pointer"
+            onClick={openHostingDropdown}
+          >
+            <div className="relative font-medium">Hostings</div>
+            <div className="flex flex-col items-start justify-start pt-[0.437rem] px-[0rem] pb-[0.187rem]">
+              <div className="flex flex-col items-start justify-start">
+                <img
+                  className="w-[0.563rem] relative h-[0.313rem]"
+                  alt=""
+                  src="/vector.svg"
+                />
               </div>
             </div>
           </div>
-          <div className={styles.domainsParent} onClick={openReseller}>
-            <div className={styles.domains}>Reseller</div>
-            <div className={styles.iconArrowDownWrapper}>
-              <div className={styles.iconArrowDown}>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+          <div
+            className="flex flex-row items-center justify-center p-[0.625rem] gap-[0.625rem] cursor-pointer"
+            onClick={openReseller}
+          >
+            <div className="relative font-medium">Reseller</div>
+            <div className="flex flex-col items-start justify-start pt-[0.437rem] px-[0rem] pb-[0.187rem]">
+              <div className="flex flex-col items-start justify-start">
+                <img
+                  className="w-[0.563rem] relative h-[0.313rem]"
+                  alt=""
+                  src="/vector.svg"
+                />
               </div>
             </div>
           </div>
-          <div className={styles.domainsParent} onClick={openServersAndVPS}>
-            <div className={styles.domains}>{`Server & VPS`}</div>
-            <div className={styles.iconArrowDownWrapper}>
-              <div className={styles.iconArrowDown}>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+          <div
+            className="flex flex-row items-center justify-center p-[0.625rem] gap-[0.625rem] cursor-pointer"
+            onClick={openServersAndVPS}
+          >
+            <div className="relative font-medium">{`Server & VPS`}</div>
+            <div className="flex flex-col items-start justify-start pt-[0.437rem] px-[0rem] pb-[0.187rem]">
+              <div className="flex flex-col items-start justify-start">
+                <img
+                  className="w-[0.563rem] relative h-[0.313rem]"
+                  alt=""
+                  src="/vector.svg"
+                />
               </div>
             </div>
           </div>
-          <div className={styles.domainsParent} onClick={openCloudSolutions}>
-            <div className={styles.domains}>Cloud Solutions</div>
-            <div className={styles.iconArrowDownWrapper}>
-              <div className={styles.iconArrowDown}>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+          <div
+            className="flex flex-row items-center justify-center p-[0.625rem] gap-[0.625rem] cursor-pointer"
+            onClick={openCloudSolutions}
+          >
+            <div className="relative font-medium">Cloud Solutions</div>
+            <div className="flex flex-col items-start justify-start pt-[0.437rem] px-[0rem] pb-[0.187rem]">
+              <div className="flex flex-col items-start justify-start">
+                <img
+                  className="w-[0.563rem] relative h-[0.313rem]"
+                  alt=""
+                  src="/vector.svg"
+                />
               </div>
             </div>
           </div>
-          <div className={styles.domainsParent} onClick={openSupport}>
-            <div className={styles.domains}>Support</div>
-            <div className={styles.iconArrowDownWrapper}>
-              <div className={styles.iconArrowDown}>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+          <div
+            className="flex flex-row items-center justify-center p-[0.625rem] gap-[0.625rem] cursor-pointer"
+            onClick={openSupport}
+          >
+            <div className="relative font-medium">Support</div>
+            <div className="flex flex-col items-start justify-start pt-[0.437rem] px-[0rem] pb-[0.187rem]">
+              <div className="flex flex-col items-start justify-start">
+                <img
+                  className="w-[0.563rem] relative h-[0.313rem]"
+                  alt=""
+                  src="/vector.svg"
+                />
               </div>
             </div>
           </div>
-          <div className={styles.domainsParent} onClick={openMyAccount}>
-            <div className={styles.domains}>My Account</div>
-            <div className={styles.iconArrowDownWrapper}>
-              <div className={styles.iconArrowDown}>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+          <div
+            className="flex flex-row items-center justify-center p-[0.625rem] gap-[0.625rem] cursor-pointer"
+            onClick={openMyAccount}
+          >
+            <div className="relative font-medium">My Account</div>
+            <div className="flex flex-col items-start justify-start pt-[0.437rem] px-[0rem] pb-[0.187rem]">
+              <div className="flex flex-col items-start justify-start">
+                <img
+                  className="w-[0.563rem] relative h-[0.313rem]"
+                  alt=""
+                  src="/vector.svg"
+                />
               </div>
             </div>
           </div>

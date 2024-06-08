@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import styles from "./frame-component9.module.css";
 
 export type FrameComponent9Type = {
   className?: string;
@@ -7,22 +6,20 @@ export type FrameComponent9Type = {
 
 const FrameComponent9: NextPage<FrameComponent9Type> = ({ className = "" }) => {
   return (
-    <div className={[styles.frameParent, className].join(" ")}>
-      <div className={styles.frameGroup}>
-        <div className={styles.frameContainer}>
-          <div className={styles.frameDiv}>
-            <div className={styles.nonStopSupportAssistanceWrapper}>
-              <b className={styles.nonStopSupportContainer}>
-                <p
-                  className={styles.nonStopSupport}
-                >{`Non-Stop Support | Assistance in `}</p>
-                <p className={styles.nonStopSupport}>
-                  Nepali, English, Maithili, Hindi
-                </p>
+    <div
+      className={`absolute top-[404.588rem] left-[calc(50%_-_607px)] flex flex-row items-center justify-start text-left text-[2rem] text-primary font-outfit-light-body-text-6 ${className}`}
+    >
+      <div className="w-[34.188rem] flex flex-col items-start justify-start gap-[0.562rem]">
+        <div className="flex flex-col items-start justify-start gap-[1.25rem]">
+          <div className="flex flex-col items-start justify-start gap-[1.5rem]">
+            <div className="flex flex-row items-center justify-center p-[0.625rem]">
+              <b className="relative">
+                <p className="m-0">{`Non-Stop Support | Assistance in `}</p>
+                <p className="m-0">Nepali, English, Maithili, Hindi</p>
               </b>
             </div>
-            <div className={styles.atProtozoahostWeUnderstandWrapper}>
-              <div className={styles.atProtozoahostWe}>
+            <div className="flex flex-row items-center justify-center p-[0.625rem] text-[1rem] text-grey-2">
+              <div className="w-[30.125rem] relative font-light flex items-center shrink-0">
                 At ProtozoaHost, we understand that problems with Reseller
                 hosting don't always occur during office hours. That's why our
                 stellar Reseller web hosting support team doesn't stick to the
@@ -31,71 +28,75 @@ const FrameComponent9: NextPage<FrameComponent9Type> = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className={styles.frameWrapper}>
-            <div className={styles.frameWrapper1}>
-              <div className={styles.youCanReachUs247ForHelpWrapper}>
-                <div className={styles.youCanReach}>
+          <div className="flex flex-col items-start justify-start p-[0.625rem] text-[0.875rem]">
+            <div className="w-[23.438rem] rounded-lg bg-foundation-primary-blue-b50 flex flex-row items-start justify-start">
+              <div className="w-[23.438rem] rounded-lg flex flex-row items-center justify-center py-[0.875rem] px-[2.312rem] box-border">
+                <div className="relative font-medium">
                   You can reach us 24/7 for help with any issues
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.frameParent1}>
-            <div className={styles.mditickCircleOutlineParent}>
+          <div className="flex flex-col items-start justify-start py-[0rem] px-[0.625rem] text-[1rem]">
+            <div className="flex flex-row items-center justify-start">
               <img
-                className={styles.mditickCircleOutlineIcon}
+                className="w-[1rem] relative h-[1rem] overflow-hidden shrink-0"
                 alt=""
                 src="/mditickcircleoutline.svg"
               />
-              <div className={styles.availableResellerHostingSupWrapper}>
-                <div className={styles.youCanReach}>
+              <div className="flex flex-row items-center justify-center p-[0.625rem] ml-[-0.125rem]">
+                <div className="relative font-medium">
                   24/7/365 Available Reseller Hosting Support
                 </div>
               </div>
             </div>
-            <div className={styles.mditickCircleOutlineGroup}>
+            <div className="flex flex-row items-center justify-start mt-[-0.125rem]">
               <img
-                className={styles.mditickCircleOutlineIcon}
+                className="w-[1rem] relative h-[1rem] overflow-hidden shrink-0"
                 alt=""
                 src="/mditickcircleoutline.svg"
               />
-              <div className={styles.availableResellerHostingSupWrapper}>
-                <div className={styles.youCanReach}>
+              <div className="flex flex-row items-center justify-center p-[0.625rem] ml-[-0.125rem]">
+                <div className="relative font-medium">
                   99.95% Support Case Resolution
                 </div>
               </div>
             </div>
-            <div className={styles.mditickCircleOutlineGroup}>
+            <div className="flex flex-row items-center justify-start mt-[-0.125rem]">
               <img
-                className={styles.mditickCircleOutlineIcon}
+                className="w-[1rem] relative h-[1rem] overflow-hidden shrink-0"
                 alt=""
                 src="/mditickcircleoutline.svg"
               />
-              <div className={styles.availableResellerHostingSupWrapper}>
-                <div className={styles.youCanReach}>
+              <div className="flex flex-row items-center justify-center p-[0.625rem] ml-[-0.125rem]">
+                <div className="relative font-medium">
                   Expert Technical Support
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className={styles.frameWrapper2}>
-          <div className={styles.frameParent2}>
-            <div className={styles.liveChat1Parent}>
+        <div className="flex flex-col items-start justify-start p-[0.625rem] text-[0.875rem] text-color">
+          <div className="flex flex-row items-start justify-start gap-[0.625rem]">
+            <div className="w-[10.875rem] rounded-lg bg-primary flex flex-row items-center justify-center py-[0.875rem] px-[2.312rem] box-border gap-[0.625rem]">
               <img
-                className={styles.liveChat1Icon}
+                className="w-[1.125rem] relative h-[1.125rem] overflow-hidden shrink-0"
                 alt=""
                 src="/livechat-1.svg"
               />
-              <div className={styles.youCanReach}>Start Live Chat</div>
+              <div className="relative font-medium">Start Live Chat</div>
             </div>
-            <div className={styles.emailUsWrapper}>
-              <div className={styles.youCanReach}>Email Us</div>
+            <div className="w-[10.875rem] rounded-lg box-border flex flex-row items-center justify-center py-[0.875rem] px-[2.312rem] text-primary border-[1px] border-solid border-primary">
+              <div className="relative font-medium">Email Us</div>
             </div>
           </div>
         </div>
       </div>
-      <img className={styles.image119Icon} alt="" src="/image-119@2x.png" />
+      <img
+        className="w-[41.688rem] relative h-[30.438rem] object-cover"
+        alt=""
+        src="/image-119@2x.png"
+      />
     </div>
   );
 };

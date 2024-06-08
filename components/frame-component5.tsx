@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import { useMemo, type CSSProperties } from "react";
-import styles from "./frame-component5.module.css";
 
 export type FrameComponent5Type = {
   className?: string;
@@ -42,18 +41,20 @@ const FrameComponent5: NextPage<FrameComponent5Type> = ({
   }, [propWidth]);
 
   return (
-    <div className={[styles.frameParent, className].join(" ")}>
-      <div className={styles.migrateYourWebsiteInJustAWrapper}>
-        <b className={styles.migrateYourWebsiteContainer}>
+    <div
+      className={`flex flex-col items-center justify-start text-left text-[2rem] text-primary font-outfit-light-body-text-6 ${className}`}
+    >
+      <div className="flex flex-row items-center justify-center p-[0.625rem]">
+        <b className="relative">
           <span style={migrateStyle}>{migrate}</span>
-          <span className={styles.yourWebsiteIn} style={yourWebsiteInStyle}>
+          <span className="text-black" style={yourWebsiteInStyle}>
             {yourWebsiteInJustAFewStep}
           </span>
         </b>
       </div>
-      <div className={styles.switchingHostingProvidersCaWrapper}>
+      <div className="flex flex-row items-center justify-center p-[0.625rem] text-center text-[1.125rem] text-grey-2">
         <div
-          className={styles.switchingHostingProviders}
+          className="w-[67.25rem] relative font-light inline-block shrink-0"
           style={switchingHostingProvidersStyle}
         >
           {switchingHostingProviders}

@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import { useMemo, type CSSProperties } from "react";
-import styles from "./frame-component4.module.css";
 
 export type FrameComponent4Type = {
   className?: string;
@@ -35,12 +34,20 @@ const FrameComponent4: NextPage<FrameComponent4Type> = ({
   }, [propWidth1]);
 
   return (
-    <div className={[styles.frameParent, className].join(" ")}>
-      <div className={styles.wrapper} style={frameDiv2Style}>
-        <b className={styles.b}>{prop}</b>
+    <div
+      className={`flex flex-col items-center justify-start text-center text-[2rem] text-primary font-outfit-light-body-text-6 ${className}`}
+    >
+      <div
+        className="w-[3.75rem] rounded-84xl bg-foundation-primary-blue-b50 h-[3.75rem] flex flex-row items-center justify-center p-[0.625rem] box-border"
+        style={frameDiv2Style}
+      >
+        <b className="relative">{prop}</b>
       </div>
-      <div className={styles.signUpForProtozoaHostAndWrapper}>
-        <div className={styles.signUpFor} style={signUpForStyle}>
+      <div className="flex flex-row items-center justify-center p-[0.625rem] text-[1.125rem] text-black">
+        <div
+          className="w-[14.938rem] relative font-semibold flex items-center justify-center shrink-0"
+          style={signUpForStyle}
+        >
           {signUpForProtozoaHostAndC}
         </div>
       </div>

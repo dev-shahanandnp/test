@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import styles from "./group-component.module.css";
 
 export type GroupComponentType = {
   className?: string;
@@ -7,39 +6,41 @@ export type GroupComponentType = {
 
 const GroupComponent: NextPage<GroupComponentType> = ({ className = "" }) => {
   return (
-    <div className={[styles.rectangleParent, className].join(" ")}>
-      <div className={styles.groupChild} />
-      <div className={styles.frameParent}>
-        <div className={styles.frameGroup}>
-          <div className={styles.mWrapper}>
-            <b className={styles.m}>1.4M+</b>
+    <div
+      className={`absolute top-[639.963rem] left-[0rem] w-[90rem] h-[7.75rem] text-left text-[2rem] text-color font-outfit-light-body-text-6 ${className}`}
+    >
+      <div className="absolute top-[0rem] left-[0rem] [background:linear-gradient(213.6deg,_#102880,_#1469cd)] w-[90rem] h-[7.75rem]" />
+      <div className="absolute top-[1.813rem] left-[calc(50%_-_378px)] flex flex-row items-start justify-start gap-[5.75rem]">
+        <div className="flex flex-row items-center justify-start">
+          <div className="flex flex-col items-center justify-center p-[0.625rem]">
+            <b className="relative">1.4M+</b>
           </div>
-          <div className={styles.requestPerSecondWrapper}>
-            <div className={styles.requestPerSecondContainer}>
-              <p className={styles.requestPer}>Request Per</p>
-              <p className={styles.requestPer}>Second</p>
+          <div className="flex flex-row items-center justify-center p-[0.625rem] text-[1rem]">
+            <div className="relative font-light">
+              <p className="m-0">Request Per</p>
+              <p className="m-0">Second</p>
             </div>
           </div>
         </div>
-        <div className={styles.frameGroup}>
-          <div className={styles.mWrapper}>
-            <b className={styles.m}>5+</b>
+        <div className="flex flex-row items-center justify-start">
+          <div className="flex flex-col items-center justify-center p-[0.625rem]">
+            <b className="relative">5+</b>
           </div>
-          <div className={styles.requestPerSecondWrapper}>
-            <div className={styles.requestPerSecondContainer}>
-              <p className={styles.requestPer}>Data Centers</p>
-              <p className={styles.requestPer}>around the world</p>
+          <div className="flex flex-row items-center justify-center p-[0.625rem] text-[1rem]">
+            <div className="relative font-light">
+              <p className="m-0">Data Centers</p>
+              <p className="m-0">around the world</p>
             </div>
           </div>
         </div>
-        <div className={styles.frameGroup}>
-          <div className={styles.mWrapper}>
-            <b className={styles.m}>1</b>
+        <div className="flex flex-row items-center justify-start">
+          <div className="flex flex-col items-center justify-center p-[0.625rem]">
+            <b className="relative">1</b>
           </div>
-          <div className={styles.requestPerSecondWrapper}>
-            <div className={styles.requestPerSecondContainer}>
-              <p className={styles.requestPer}>Local Data</p>
-              <p className={styles.requestPer}>Center in Nepal</p>
+          <div className="flex flex-row items-center justify-center p-[0.625rem] text-[1rem]">
+            <div className="relative font-light">
+              <p className="m-0">Local Data</p>
+              <p className="m-0">Center in Nepal</p>
             </div>
           </div>
         </div>

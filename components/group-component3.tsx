@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import styles from "./group-component3.module.css";
 
 export type GroupComponent3Type = {
   className?: string;
@@ -7,53 +6,65 @@ export type GroupComponent3Type = {
 
 const GroupComponent3: NextPage<GroupComponent3Type> = ({ className = "" }) => {
   return (
-    <div className={[styles.rectangleParent, className].join(" ")}>
-      <div className={styles.groupChild} />
-      <div className={styles.groupItem} />
-      <div className={styles.groupInner} />
-      <div className={styles.ellipseDiv} />
-      <img className={styles.vectorIcon} alt="" src="/vector3.svg" />
-      <div className={styles.lineDiv} />
-      <div className={styles.groupChild1} />
-      <div className={styles.protozoahostServerParent}>
-        <div className={styles.protozoahostServer}>
-          <p className={styles.protozoahost}>ProtozoaHost</p>
-          <p className={styles.protozoahost}>Server</p>
+    <div
+      className={`w-[31.313rem] relative h-[22.25rem] text-center text-[0.75rem] text-primary font-inter ${className}`}
+    >
+      <div className="absolute top-[0rem] left-[0rem] rounded-lg box-border w-[31.313rem] h-[22.25rem] border-[1px] border-solid border-primary" />
+      <div className="absolute top-[0.875rem] left-[1.063rem] rounded-[50%] box-border w-[0.563rem] h-[0.563rem] border-[0.5px] border-solid border-primary" />
+      <div className="absolute top-[0.875rem] left-[1.938rem] rounded-[50%] box-border w-[0.563rem] h-[0.563rem] border-[0.5px] border-solid border-primary" />
+      <div className="absolute top-[0.875rem] left-[2.813rem] rounded-[50%] box-border w-[0.563rem] h-[0.563rem] border-[0.5px] border-solid border-primary" />
+      <img
+        className="absolute h-[2.81%] w-[2%] top-[3.65%] right-[2.99%] bottom-[93.54%] left-[95.01%] max-w-full overflow-hidden max-h-full"
+        alt=""
+        src="/vector3.svg"
+      />
+      <div className="absolute top-[-0.062rem] left-[7.813rem] box-border w-[0.125rem] h-[22.375rem] border-r-[2px] border-solid border-primary" />
+      <div className="absolute top-[16.938rem] left-[-0.062rem] box-border w-[31.438rem] h-[0.125rem] border-t-[2px] border-solid border-primary" />
+      <div className="absolute top-[3.875rem] left-[2.125rem] w-[25.563rem] h-[2.25rem]">
+        <div className="absolute top-[0.188rem] left-[0rem]">
+          <p className="m-0">ProtozoaHost</p>
+          <p className="m-0">Server</p>
         </div>
-        <div className={styles.div}>4329</div>
-        <div className={styles.rectangleDiv} />
+        <div className="absolute top-[0.688rem] left-[23.625rem]">4329</div>
+        <div className="absolute top-[0rem] left-[5.813rem] [background:linear-gradient(89.24deg,_#1354b5,_#120086)] w-[16.938rem] h-[2.25rem]" />
       </div>
-      <div className={styles.apacheW3tcParent}>
-        <div className={styles.protozoahostServer}>
-          <p className={styles.protozoahost}>Apache+</p>
-          <p className={styles.protozoahost}>W3TC</p>
+      <div className="absolute top-[7rem] left-[3rem] w-[16.938rem] h-[2.25rem]">
+        <div className="absolute top-[0.188rem] left-[0rem]">
+          <p className="m-0">Apache+</p>
+          <p className="m-0">W3TC</p>
         </div>
-        <div className={styles.div1}>1241</div>
-        <div className={styles.groupChild2} />
+        <div className="absolute top-[0.688rem] left-[15.313rem]">1241</div>
+        <div className="absolute top-[0rem] left-[4.938rem] box-border w-[9.5rem] h-[2.25rem] border-[1px] border-solid border-primary" />
       </div>
-      <div className={styles.nginxFcgiParent}>
-        <div className={styles.protozoahostServer}>
-          <p className={styles.protozoahost}>Nginx+</p>
-          <p className={styles.protozoahost}>FCGI</p>
+      <div className="absolute top-[10.125rem] left-[3.313rem] w-[12.188rem] h-[2.25rem]">
+        <div className="absolute top-[0.188rem] left-[0rem]">
+          <p className="m-0">Nginx+</p>
+          <p className="m-0">FCGI</p>
         </div>
-        <div className={styles.div2}>858</div>
-        <div className={styles.groupChild3} />
+        <div className="absolute top-[0.688rem] left-[10.75rem]">858</div>
+        <div className="absolute top-[0rem] left-[4.625rem] box-border w-[5.313rem] h-[2.25rem] border-[1px] border-solid border-primary" />
       </div>
-      <div className={styles.div3}>0</div>
-      <div className={styles.div4}>1000</div>
-      <div className={styles.div5}>2000</div>
-      <div className={styles.div6}>3000</div>
-      <div className={styles.div7}>4000</div>
-      <div className={styles.apacheWprocketParent}>
-        <div className={styles.protozoahostServer}>
-          <p className={styles.protozoahost}>Apache+</p>
-          <p className={styles.protozoahost}>WPRocket</p>
+      <div className="absolute top-[17rem] left-[8.813rem]">0</div>
+      <div className="absolute top-[17rem] left-[13.25rem]">1000</div>
+      <div className="absolute top-[17rem] left-[18.875rem]">2000</div>
+      <div className="absolute top-[17rem] left-[24.5rem]">3000</div>
+      <div className="absolute top-[17rem] left-[29.375rem]">4000</div>
+      <div className="absolute top-[13.25rem] left-[2.75rem] w-[10.25rem] h-[2.25rem]">
+        <div className="absolute top-[0.188rem] left-[0rem]">
+          <p className="m-0">Apache+</p>
+          <p className="m-0">WPRocket</p>
         </div>
-        <div className={styles.div8}>683</div>
-        <div className={styles.groupChild4} />
+        <div className="absolute top-[0.688rem] left-[8.813rem]">683</div>
+        <div className="absolute top-[0rem] left-[5.188rem] box-border w-[3.188rem] h-[2.25rem] border-[1px] border-solid border-primary" />
       </div>
-      <img className={styles.image118Icon} alt="" src="/image-118@2x.png" />
-      <div className={styles.transactionssec}>Transactions/sec</div>
+      <img
+        className="absolute top-[0.563rem] left-[15.313rem] w-[3.813rem] h-[2.375rem] object-cover"
+        alt=""
+        src="/image-118@2x.png"
+      />
+      <div className="absolute top-[19.5rem] left-[14.875rem]">
+        Transactions/sec
+      </div>
     </div>
   );
 };
