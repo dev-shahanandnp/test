@@ -1,0 +1,245 @@
+.boostYourTeams {
+  margin: 0;
+}
+.protozoaHost {
+  color: var(--primary);
+}
+.boostYourTeamsContainer {
+  position: relative;
+}
+.boostYourTeamsProductivityWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(213.6deg, #102880, #1469cd);
+  width: 702px;
+  height: 258px;
+}
+.googleWorkspace {
+  position: relative;
+  font-weight: 500;
+}
+.boostYourTeamsProductivityContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  font-size: var(--outfit-med-body-text-2-size);
+}
+.frameDiv,
+.sellAllPlansWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.frameDiv {
+  width: 300px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sellAllPlansWrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-18xl);
+}
+.frameContainer,
+.frameWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  padding: var(--padding-3xs);
+  font-size: var(--outfit-regular-body-text-4-size);
+}
+.frameContainer {
+  position: absolute;
+  top: 34px;
+  left: 32px;
+  width: 302px;
+}
+.image116Icon {
+  width: 247px;
+  position: relative;
+  height: 32.4px;
+  object-fit: cover;
+}
+.image116Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) var(--padding-3xs);
+}
+.image115Icon {
+  width: 246px;
+  position: relative;
+  height: 36px;
+  object-fit: cover;
+}
+.frameParent1 {
+  position: absolute;
+  top: 66px;
+  left: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.rectangleParent {
+  width: 702px;
+  position: relative;
+  box-shadow: var(--shadow);
+  height: 258px;
+}
+.enhanceYourBusiness {
+  width: 307px;
+  position: relative;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.frameParent2,
+.frameParent3 {
+  width: 302px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  position: absolute;
+  top: 35px;
+  left: 32px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: var(--shadow);
+  width: 702px;
+  height: 258px;
+}
+.image114Icon {
+  position: absolute;
+  top: 93px;
+  left: 370px;
+  width: 300px;
+  height: 77px;
+  object-fit: cover;
+}
+.groupContainer {
+  width: 702px;
+  position: relative;
+  height: 258px;
+}
+.groupParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+}
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(213.6deg, #102880, #1469cd);
+  width: 518px;
+  height: 552px;
+}
+.instantlyAccessDomain {
+  width: 450px;
+  position: relative;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.frameParent4,
+.frameParent5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent5 {
+  width: 468px;
+}
+.frameParent4 {
+  position: absolute;
+  top: 364px;
+  left: 25px;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: var(--shadow);
+  width: 518px;
+  height: 552px;
+}
+.image117Icon,
+.layer11 {
+  position: absolute;
+  top: 39px;
+  left: 35px;
+  width: 455px;
+  height: 298px;
+}
+.image117Icon {
+  top: 98px;
+  left: 68px;
+  width: 382px;
+  height: 202px;
+  object-fit: cover;
+}
+.groupDiv {
+  width: 518px;
+  position: relative;
+  height: 552px;
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+  text-align: left;
+  font-size: var(--outfit-light-body-text-1-size);
+  color: var(--color);
+}
+.frameParent {
+  position: absolute;
+  top: 14024.4px;
+  left: 92px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-31xl);
+  text-align: center;
+  font-size: var(--outfit-semi-bold-h1-size);
+  color: var(--black);
+  font-family: var(--outfit-semi-bold-h1);
+}

@@ -1,0 +1,54 @@
+.searchMindsAcheives {
+  width: 284px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.searchMindsAcheives10xBusiWrapper {
+  width: 325px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi-6) var(--padding-smi-6) var(--padding-smi-6) 0;
+  box-sizing: border-box;
+}
+.readMore {
+  position: relative;
+  font-weight: 500;
+}
+.basilarrowUpOutlineIcon {
+  width: 22.6px;
+  position: relative;
+  height: 22.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.readMoreParent {
+  width: 325px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi-6) var(--padding-smi-6) var(--padding-smi-6) 0;
+  box-sizing: border-box;
+  gap: var(--gap-162xl);
+  font-size: var(--outfit-regular-body-text-4-size);
+  color: var(--primary);
+}
+.frameParent {
+  position: absolute;
+  top: 186px;
+  left: 12px;
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--outfit-med-body-text-2-size);
+  color: var(--grey-2);
+  font-family: var(--outfit-semi-bold-h1);
+}

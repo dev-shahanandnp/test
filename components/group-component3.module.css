@@ -1,0 +1,200 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--primary);
+  box-sizing: border-box;
+  width: 501px;
+  height: 356px;
+}
+.ellipseDiv,
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  border-radius: 50%;
+  border: 0.5px solid var(--primary);
+  box-sizing: border-box;
+  width: 9px;
+  height: 9px;
+}
+.ellipseDiv,
+.groupInner {
+  left: 31px;
+}
+.ellipseDiv {
+  left: 45px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 2.81%;
+  width: 2%;
+  top: 3.65%;
+  right: 2.99%;
+  bottom: 93.54%;
+  left: 95.01%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupChild1,
+.lineDiv {
+  position: absolute;
+  box-sizing: border-box;
+}
+.lineDiv {
+  top: -1px;
+  left: 125px;
+  border-right: 2px solid var(--primary);
+  width: 2px;
+  height: 358px;
+}
+.groupChild1 {
+  top: 271px;
+  left: -1px;
+  border-top: 2px solid var(--primary);
+  width: 503px;
+  height: 2px;
+}
+.protozoahost {
+  margin: 0;
+}
+.protozoahostServer {
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+.div,
+.rectangleDiv {
+  position: absolute;
+  top: 11px;
+  left: 378px;
+}
+.rectangleDiv {
+  top: 0;
+  left: 93px;
+  background: linear-gradient(89.24deg, #1354b5, #120086);
+  width: 271px;
+  height: 36px;
+}
+.protozoahostServerParent {
+  position: absolute;
+  top: 62px;
+  left: 34px;
+  width: 409px;
+  height: 36px;
+}
+.div1,
+.groupChild2 {
+  position: absolute;
+  top: 11px;
+  left: 245px;
+}
+.groupChild2 {
+  top: 0;
+  left: 79px;
+  border: 1px solid var(--primary);
+  box-sizing: border-box;
+  width: 152px;
+  height: 36px;
+}
+.apacheW3tcParent {
+  position: absolute;
+  top: 112px;
+  left: 48px;
+  width: 271px;
+  height: 36px;
+}
+.div2,
+.groupChild3 {
+  position: absolute;
+  top: 11px;
+  left: 172px;
+}
+.groupChild3 {
+  top: 0;
+  left: 74px;
+  border: 1px solid var(--primary);
+  box-sizing: border-box;
+  width: 85px;
+  height: 36px;
+}
+.nginxFcgiParent {
+  position: absolute;
+  top: 162px;
+  left: 53px;
+  width: 195px;
+  height: 36px;
+}
+.div3,
+.div4,
+.div5,
+.div6,
+.div7 {
+  position: absolute;
+  top: 272px;
+  left: 141px;
+}
+.div4,
+.div5,
+.div6,
+.div7 {
+  left: 212px;
+}
+.div5,
+.div6,
+.div7 {
+  left: 302px;
+}
+.div6,
+.div7 {
+  left: 392px;
+}
+.div7 {
+  left: 470px;
+}
+.div8,
+.groupChild4 {
+  position: absolute;
+  top: 11px;
+  left: 141px;
+}
+.groupChild4 {
+  top: 0;
+  left: 83px;
+  border: 1px solid var(--primary);
+  box-sizing: border-box;
+  width: 51px;
+  height: 36px;
+}
+.apacheWprocketParent,
+.image118Icon {
+  position: absolute;
+  top: 212px;
+  left: 44px;
+  width: 164px;
+  height: 36px;
+}
+.image118Icon {
+  top: 9px;
+  left: 245px;
+  width: 61px;
+  height: 38px;
+  object-fit: cover;
+}
+.transactionssec {
+  position: absolute;
+  top: 312px;
+  left: 238px;
+}
+.rectangleParent {
+  width: 501px;
+  position: relative;
+  height: 356px;
+  text-align: center;
+  font-size: var(--outfit-light-body-text-5-size);
+  color: var(--primary);
+  font-family: var(--font-inter);
+}

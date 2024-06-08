@@ -1,0 +1,67 @@
+.image69Transformed1Icon {
+  width: 490px;
+  position: relative;
+  height: 476px;
+  object-fit: cover;
+}
+.advancedSecurityFeatures {
+  width: 282px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.advancedSecurityFeaturesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.mdicheckBoldIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.getUnlimitedSsl {
+  width: 506px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.mdicheckBoldParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.frameGroup,
+.frameParent,
+.image69Transformed1Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  padding: var(--padding-3xs);
+  gap: var(--gap-7xl);
+  font-size: var(--outfit-med-body-text-2-size);
+}
+.frameParent,
+.image69Transformed1Parent {
+  gap: var(--gap-smi);
+}
+.image69Transformed1Parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-132xl);
+  text-align: left;
+  font-size: var(--outfit-semi-bold-h1-size);
+  color: var(--color);
+  font-family: var(--outfit-semi-bold-h1);
+}

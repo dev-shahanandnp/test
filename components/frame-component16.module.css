@@ -1,0 +1,53 @@
+.yourWebHosting {
+  position: relative;
+}
+.yourWebHostingQuestionsAnsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.getTheClarity {
+  position: relative;
+  font-weight: 300;
+}
+.getTheClarityYouNeedWithWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  font-size: var(--outfit-med-body-text-2-size);
+  color: var(--grey-2);
+}
+.faqAccordionParent,
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.faqAccordionParent,
+.frameParent {
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--outfit-med-body-text-2-size);
+  color: var(--black);
+}
+.frameParent {
+  position: absolute;
+  width: calc(100% - 247px);
+  top: 14882.4px;
+  right: 124px;
+  left: 123px;
+  overflow: hidden;
+  align-items: center;
+  gap: var(--gap-31xl);
+  text-align: center;
+  font-size: var(--outfit-semi-bold-h1-size);
+  color: var(--primary);
+  font-family: var(--outfit-semi-bold-h1);
+}

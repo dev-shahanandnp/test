@@ -1,0 +1,40 @@
+.image62Icon {
+  width: 46px;
+  position: relative;
+  height: 46px;
+  object-fit: cover;
+}
+.image62Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+}
+.hostingerProvedItself {
+  width: 285px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.hostingerProvedItselfAReliWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.frameParent {
+  border-radius: var(--br-9xs);
+  background-color: var(--color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-smi);
+  text-align: left;
+  font-size: var(--outfit-light-body-text-3-size);
+  color: var(--grey-2);
+  font-family: var(--outfit-semi-bold-h1);
+}

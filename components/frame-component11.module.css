@@ -1,0 +1,106 @@
+.stories {
+  color: var(--primary);
+}
+.customerSuccessStoriesContainer {
+  position: relative;
+}
+.customerSuccessStoriesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.readTheRemarkable {
+  width: 640px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.readTheRemarkableStoriesOfWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  text-align: center;
+  font-size: var(--outfit-light-body-text-3-size);
+  color: var(--grey-2);
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 351px;
+}
+.groupChild {
+  border-radius: var(--br-5xs);
+  border: 0.5px solid var(--grey);
+  box-sizing: border-box;
+  height: 347px;
+}
+.groupItem {
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  height: 175px;
+  object-fit: cover;
+}
+.rectangleParent {
+  width: 351px;
+  position: relative;
+  height: 347px;
+}
+.frameGroup,
+.groupParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.groupParent {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-51xl);
+  font-size: var(--outfit-med-body-text-2-size);
+  color: var(--grey-2);
+}
+.frameGroup {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-31xl);
+}
+.readMoreStories {
+  position: relative;
+  font-weight: 500;
+}
+.frameParent,
+.readMoreStoriesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.readMoreStoriesWrapper {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--primary);
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-18xl);
+  font-size: var(--outfit-regular-body-text-4-size);
+  color: var(--primary);
+}
+.frameParent {
+  position: absolute;
+  top: 12499.4px;
+  left: calc(50% - 597px);
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  text-align: left;
+  font-size: var(--outfit-semi-bold-h1-size);
+  color: var(--black);
+  font-family: var(--outfit-semi-bold-h1);
+}

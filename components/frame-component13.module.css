@@ -1,0 +1,79 @@
+.productOfferings {
+  color: var(--primary);
+}
+.discoverOurWideContainer {
+  position: relative;
+}
+.discoverOurWideRangeOfProWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.exploreOurExtensive {
+  width: 800px;
+  position: relative;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.exploreOurExtensiveRangeOfWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--outfit-light-body-text-1-size);
+  color: var(--grey-2);
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.tomParent,
+.webParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1231px;
+  height: 398px;
+}
+.tomParent {
+  top: 418px;
+  height: 396px;
+}
+.groupContainer,
+.windowsRdpParent {
+  width: 1231px;
+  position: relative;
+  height: 814px;
+}
+.windowsRdpParent {
+  height: 396px;
+}
+.frameParent,
+.groupParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--outfit-light-body-text-1-size);
+}
+.frameParent {
+  position: absolute;
+  top: 2808.6px;
+  left: calc(50% - 616px);
+  align-items: center;
+  gap: var(--gap-31xl);
+  text-align: left;
+  font-size: var(--outfit-semi-bold-h1-size);
+  color: var(--black);
+  font-family: var(--outfit-semi-bold-h1);
+}

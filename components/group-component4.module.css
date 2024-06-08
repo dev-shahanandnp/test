@@ -1,0 +1,80 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #1469cd,
+    #1354b5 37.88%,
+    #102880
+  );
+  width: 1440px;
+  height: 441px;
+}
+.oneClickInstallsSo {
+  margin: 0;
+}
+.oneClickInstallsSoContainer {
+  position: relative;
+}
+.oneClickInstallsSoYouCanWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.image8Icon {
+  width: 194px;
+  position: relative;
+  height: 40px;
+  object-fit: cover;
+}
+.image10Icon,
+.image11Icon,
+.image12Icon,
+.image9Icon {
+  width: 115px;
+  position: relative;
+  height: 40px;
+  object-fit: cover;
+}
+.image10Icon,
+.image11Icon,
+.image12Icon {
+  width: 190px;
+}
+.image11Icon,
+.image12Icon {
+  width: 152px;
+}
+.image12Icon {
+  width: 117px;
+}
+.frameParent,
+.image8Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-50xl);
+}
+.frameParent {
+  position: absolute;
+  top: 111px;
+  left: 198px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-60xl);
+}
+.rectangleParent {
+  position: absolute;
+  top: 7114.4px;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 441px;
+  text-align: center;
+  font-size: var(--outfit-semi-bold-h1-size);
+  color: var(--color);
+  font-family: var(--outfit-semi-bold-h1);
+}
